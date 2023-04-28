@@ -1,0 +1,145 @@
+body
+{
+	background-image: url('b_AllSoulsquad.jpg');
+	background-repeat: no-repeat;
+}
+input
+{
+	border: hidden;
+	border-bottom: 1px solid white;
+	color: #f4f3ee;
+	background: none;
+	width: 50%;
+	margin-left: 15px;
+	display: inline-block;
+	margin-top: 20px;
+    background-color: #98c1d9;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+
+}
+form{
+	background-color: #012a4a;
+    border-radius: 20px;
+    width: 40%;
+	line-height: 60px;
+	color: white;
+	margin-left:550px;
+	background-size:90px;
+	height: 500px;
+	
+}
+#fname{
+	width: 50%;
+	margin-left: 72px;
+}
+#lname{
+	width: 50%;
+	margin-left: 76px;
+	margin-top: -2px;
+}
+#email{
+	margin-left:38px;
+}
+#phone{
+	margin-left:35px;
+}
+#message{
+	margin-left:40px;
+
+}
+label{
+	font-size:25px ;
+	margin-left: 25px;
+	margin-top: 70px;
+}
+input:hover{
+	background: none;
+}
+
+.input{
+	width: 20%;
+}
+#send
+{
+	background:#012a4a;
+	width: 40%;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-left: 160px;
+	margin-top: 40px;
+	color:#f8edeb;
+
+}
+h1{
+	margin-left: 30px;
+	font-size: 40px;
+	font-style: italic;
+	margin-top: 30px;
+
+}
+
+img{
+	height: 100px;
+	width: 35%;
+	
+	position: relative;
+	margin-left: 170px;
+	margin-top: 10px;
+}
+
+nav
+{
+text-align: left;
+    margin-top: 30px;
+	font-size: 21px;
+	background-color: grey;
+	display: inline-block;
+	width: 20%;
+	height: 480px;
+	line-height: 20px;
+	position: fixed;
+	top: 0;
+	background-color: #1d3557;
+	align-content: left;
+	box-shadow: 20px;
+	border-radius: 10px;
+	list-style: none;
+}
+a{
+	margin-left: 90px;
+	text-decoration: none;
+	list-style: none;
+	line-height: 43px;
+	color: white;
+}
+li{
+		margin-top: 15px;
+	}
+
+.part{
+	color: white;
+	font-weight: bold;
+	font-size: 35PX;
+	font-family: serif;
+}
+.whole{
+	color: white;
+	font-size: 19px;
+	line-height: 25px;
+	font-family: sans-serif;
+	margin-top: -80px;
+	margin-left: 10PX;
+}
+li:hover{
+	
+	box-sizing: border-box;
+	background-color: #ADB5BD;
+	
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+} 
+a:hover{
+	color:black ;
+}

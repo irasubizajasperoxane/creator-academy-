@@ -1,0 +1,93 @@
+nav{
+    text-align: left;
+    margin-top: 30px;
+	font-size: 21px;
+	display: inline-block;
+	width: 20%;
+	height: 480px;
+	line-height: 20px;
+	position: fixed;
+	top: 0;
+	background-color: #1d3557;
+	align-content: left;
+	box-shadow: 20px;
+	border-radius: 10px;
+	list-style: none;
+}
+a{
+	margin-left: 90px;
+	text-decoration: none;
+	list-style: none;
+	line-height: 23px;
+	color: white;
+}
+li{
+		margin-top: 55px;
+}
+.part{
+	color: white;
+	font-weight: bold;
+	font-size: 35PX;
+	font-family: serif;
+}
+.whole{
+	color: white;
+	font-size: 19px;
+	line-height: 25px;
+	font-family: sans-serif;
+	margin-top: -80px;
+	margin-left: 10PX;
+
+}
+@media only screen and (max-width: 800px){
+	nav{
+
+    margin-left: 10px;
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 70px;
+	line-height: 5px;
+	position: fixed;
+	list-style: none;
+	text-align: left;
+}
+}
+@media only screen and ( max-width: 800px){
+	a{
+	margin-left: 100px;
+    text-align: left;
+	list-style: none;
+	line-height: 5px;
+	
+}
+body{
+	background-color: cyan;
+}
+}
+@media only screen and ( max-width: 800px){
+	li{
+margin-top: 25px;
+		}
+		body{
+	background-color: blue;
+}
+}
+@media only screen and (min-width:800px ){
+	nav{
+		font-size: 20px;
+		width: 15%;
+		line-height: 5px;
+		height: 390px;
+
+	}
+	body{
+	background-color: green;
+}
+}
+@media only screen and (min-width: 800px){
+	a{
+		margin-left: 30px;
+	}
+}
